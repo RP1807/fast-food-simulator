@@ -1,7 +1,7 @@
 # fast-food-simulator
 A Fast Food take away restaurant simulator in Python
 
-This app simulates customers of a take-away restaurant placing orders and and waiting for them to be prepared and delivered to a pickup counter. After placing the order the customer waits on the order to be announced before picking it up and proceeding to the dining area.
+This app simulates customers of a take-away restaurant, placing orders, waiting for them to be prepared and delivered to a pickup counter. After placing the order the customer waits for it to be announced before picking it up and proceeding to the dining area.
 
 The user stories that make up this app center around four distinct roles:
  - User - the end user using the application
@@ -52,7 +52,7 @@ Config params
 customer_arrival_interval -> Simulates a customer behaviour. A new customer arrives at certain interval 
 order_preparation_time -> Simulates a time taken by cook to prepare an order 
 order_taker_interval -> Simulates a time taken by the order taker to take order, create unique order ticket number and place an order in kitchen.
-time_taken_by_server -> Time taken by the server to served prepared order. 
+time_taken_by_server -> Time taken by the server to serve prepared order. 
 stop_after -> Execution time of a tool 
 ```
 
